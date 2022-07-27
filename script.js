@@ -17,3 +17,13 @@ function paintPixel(e) {
   for (let index = 0; index < pixel.length; index += 1) {
     pixel[index].addEventListener('click', paintPixel);
 }
+
+function clearBoard() {
+    const pixel = document.getElementsByClassName('pixel');
+    for (let index = 0; index < pixel.length; index += 1) {
+        pixel[index].style.backgroundColor= 'white';
+    }
+}
+
+const button = document.getElementById('clear-board');
+button.addEventListener('click', clearBoard);
