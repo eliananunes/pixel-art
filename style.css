@@ -1,0 +1,24 @@
+color {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  
+  #green {
+    background-color: rgb(80, 158, 34);
+  }
+  
+  #pink {
+    background-color: rgb(243, 169, 181);
+  }
+  
+  #blue {
+    background-color: rgb(93, 93, 253);
+  }
+  
+  #yellow {
+    background-color: rgb(230, 230, 19);
+  }
