@@ -1,4 +1,4 @@
-color {
+.color {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -25,8 +25,8 @@ color {
 
   .pixel {
     background-color: white;
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     border: 1px;
     border-color: black;
     border-style: solid;
