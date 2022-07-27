@@ -6,3 +6,14 @@ function selectColor(event) {
 
 const colorPalette = document.querySelector('#color-palette');
 colorPalette.addEventListener('click', selectColor);
+
+
+function paintPixel(e) {
+    const selectedColor = document.querySelector('.selected').id;
+    e.target.style.backgroundColor = selectedColor;
+  }
+  
+  const pixel = document.getElementsByClassName('pixel');
+  for (let index = 0; index < pixel.length; index += 1) {
+    pixel[index].addEventListener('click', paintPixel);
+}
